@@ -6,3 +6,5 @@ show tables;
 
 select * from transaction_details;
 
+Select * from account;
+

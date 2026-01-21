@@ -1,0 +1,31 @@
+What is ALTER Command?
+Ans:- Alter command is used to do the modification/changes in the existing table.
+
+What is the Difference between DELETE, TRUNCATE and DROP
+Ans:-
+    DELETE command is used to delete the schema and data. *We can ROLLBACK*
+    TRUNCATE command is used to delete the data inside the table, not the table
+    DROP command is used to DELETE COMPLETE TABLE
+
+What is the best approach to find null value in column?
+Ans:- Use the IS Filtering pattern instead of '='.
+    SELECT * FROM Emp_Table WHERE email='null'; Wrong
+    SELECT * FROM Emp_Table WHERE email IS null; Right
+
+Explain Execution Order
+Ans:-            1. FROM
+                 2. WHERE
+                 3. SELECT
+                 4. ORDER BY
+                 5. LIMIT
+
+What is the difference between CHAR And VARCHAR
+Ans:- CHAR is the Fixed Length, VARCHAR is variable length.
+
+Q2. Why is DECIMAL preferred for salary?
+Ans:- To avoid precision loss seen in floating-point types.
+
+
+
+
+

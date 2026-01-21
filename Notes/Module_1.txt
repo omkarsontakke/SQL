@@ -1,0 +1,49 @@
+What is Database?
+Ans:- A database is the organized collection of structure, that stored safely,retrive efficently and shared accross application.
+     ~ Think database as the CSV file but much faster
+
+Why Do We Need Databases?
+Ans:- Without database data is stored in the csv,json so no validation and data corruption risk
+      With database it has structured schema, data integrity and fast querying.
+
+What is the difference between database vs DBMS vs RDBMS?
+Ans:-
+    Database -> The actual data (ombank_db)
+    DBMS     -> Software that manage the database
+    RDBMS    -> RDBMS that based on the relation model (MySQL)
+
+What is SQL?
+Ans:- SQL(Structured Query Language) is declarative language in the you tell WHAT you want, Not HOW
+
+What you know about the Relational Model?
+Ans:- In Relational Model data is
+        ~ stored in the tables
+        ~ table constist of rows and columns
+        ~ relationship between tables using KEYS
+Java Mapping
+    Database -> Application
+    Table    -> Class
+    rows     -> Object
+    Columns  -> Fileds
+    PK       -> Object ID
+    FK       -> Reference ID
+
+What is MySQL?
+Ans:- It is an open-source RDBMS that widely used in the enterprise application
+
+What are SQL Categories?
+There are mainly 4 categories
+    1. DDL(Data Definition Language)     -> CREATE, TRUNCATE, DROP, ALTER
+    2. DML(Data Manipulation Language)   -> SELECT, INSERT, UPDATE, DELETE
+    3. DCL(Data Control Language)        -> GRANT, REVOKE
+    4. TCL(Transaction Control Language) -> COMMIT, ROLLBACK, SAVEPOINT
+
+Why Relational Database?
+Ans:- They ensure data integrity, relationship, consistency.
+
+
+
+
+
+
+
