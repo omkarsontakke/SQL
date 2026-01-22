@@ -1,0 +1,40 @@
+Module 3: Constraints & Keys (Data Integrity + Relationships)
+
+What are Constraints?
+Ans:- Constrain are ruled enforce by the database to protect data integrity.
+    They Insure that
+        1. No invalid data
+        2. No Duplicate identifier
+        3. Valid relationship between tables
+
+Types of Constants in MySQL?
+1. Primary Key    -> uniquely identify the row, cannot be NULL, One per table
+2. FOREIGN KEY    -> Enforce RelationShip
+3. UNIQUE         -> Prevent Duplicate Values, In MySQL only one NULL value allowed in column
+4. NOT NULL       -> Disallows the NULL values -> It ensure mandotory data present
+5. CHECK          -> Validate Condition, CHECK (balance >= 0)
+6. DEFAULT        -> SET Default value
+
+
+ON DELETE / ON UPDATE Rules :
+    It defines what happens to rows in a child table when the referenced row from the parent table is deleted or updated.
+
+1. ON DELETE CASCADE: When parent row deleted, child row deleted automatically.
+2. ON UPDATE CASCADE: When parent row updated, Child row updated automatically.
+
+
+Q1. Why is primary key important?
+Ans:- It uniquely identifies rows and enforces entity integrity.
+
+Q2. Can a table have multiple primary keys?
+Ans:- No, but it can have a composite primary key.
+
+Q3. Difference between UNIQUE and PRIMARY KEY?
+Ans:- PRIMARY KEY disallows NULL and is one per table; UNIQUE allows NULLs.
+
+Q4. What happens if you delete a parent row with foreign key?
+Ans:- Depends on ON DELETE rule (CASCADE, RESTRICT, etc.).
+
+Q5. Why not rely only on Java validation instead of DB constraints?
+Ans:- Because DB constraints ensure integrity across all applications and entry points.
+
