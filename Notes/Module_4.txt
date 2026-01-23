@@ -1,0 +1,15 @@
+Module 4: Joins & Table Relationships (The Heart of SQL)
+
+Understand why joins exist
+Ans:- In Relational Databases Data is the normalized and related data is lives in the different table,
+        to show the combine data in the result we must use JOIN.
+
+Note: If we have to tables and Table1(example:department) that has foreign key present of Table2(example:employee)
+        Then First we have to delete the employee table, coz of foregin key present in department
+        So if we try to delete first department table then its not allowd
+        Soln:- First delete the employee table then try to delete department table.
+
+What is JOIN?
+Ans:- JOIN combines two or more tables based on the related column.
+
+1.INNER JOIN:- Returns only matching record from both tables.
