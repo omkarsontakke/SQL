@@ -1,0 +1,22 @@
+===========================Module 5: Aggregations & GROUP BY===================
+
+What is Aggregation?
+Ans:- Aggregation means reducing the number of rows into the single summary value.
+    example: Total salary per department
+
+Why GROUP BY Exists?
+Ans:- If you want result per group, you must group first
+
+Difference between WHERE and HAVING Clause?
+Ans:- WHERE filter the rows before grouping
+      HAVING Filter groups after aggregation
+
+Does GROUP BY Sort the data?
+Ans:- No, ORDER BY is required
+
+COUNT(*) vs COUNT(column_name)
+Ans:- COUNT(*) are count all values from the rows(Include null values)
+      COUNT(column_name) count that specific column rows(Exclude null values)
+
+
+
