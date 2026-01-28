@@ -66,4 +66,22 @@ CREATE TABLE DATA AS (SELECT Person.FirstName FROM Person);
 SELECT * FROM DATA;
 
 -- 15. Write an SQL query to create an empty table with the same structure as some other table
-CREATE TABLE DATA1 AS (SELECT Person.LastName FROM Person WHERE 1=0)
+CREATE TABLE DATA1 AS (SELECT LastName FROM Person WHERE 1=0);
+
+-- 16. Write an SQL query to fetch top 3 HIGHEST salaries
+
+SELECT Salary FROM Person ORDER BY Salary DESC
+LIMIT 3
+
+-- 17.  List the ways to get the count of records in a table
+SELECT COUNT(*) FROM Person;
+SELECT COUNT(Email) FROM person;
+
+-- 18. GET ALL EMP whose salaries are greater than avg salary
+SELECT FirstName, Person.Salary FROM Person
+WHERE Salary > (SELECT AVG(Salary) FROM Person);
+
+SELECT * FROM Person;
+
+
+

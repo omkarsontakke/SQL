@@ -76,3 +76,18 @@ select salary FROM employee_details ORDER BY salary DESC LIMIT 3
 
 -- Find the SECOND-HIGHEST SALARY of EMP
 SELECT DISTINCT salary from employee_details ORDER BY salary DESC LIMIT 1 OFFSET 1;
+
+-- Change Column Name
+SELECT * FROM employee_details;
+ALTER TABLE employee_details
+CHANGE COLUMN name emp_name varchar(255);
+
+-- MODIFY TABLE
+ALTER TABLE employee_details
+MODIFY email CHAR(200);
+
+-- ADD COLUMN
+ALTER TABLE employee_details
+ADD COLUMN emp_vendor_name varchar(20) NOT NULL DEFAULT ("ICICI BANK");
+
+SELECT * from employee_details;
