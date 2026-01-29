@@ -28,6 +28,14 @@ AFTER INSERT  ->	Audit new rows
 AFTER UPDATE  ->	Audit changes
 AFTER DELETE  ->	Audit removals
 
+Can triggers call other triggers?
+It depends on the database, but usually recursive trigger calls are restricted.
+
+Difference between trigger and stored procedure?
+    Trigger	Stored Procedure
+    Runs automatically	Runs manually
+    Tied to table/event	Can be called anytime
+    Cannot take parameters	Can take parameters
 
 
 

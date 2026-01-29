@@ -58,7 +58,7 @@ SELECT * FROM employee_data;
 
 DELIMITER //
 CREATE TRIGGER set_role_user_bydefault
-AFTER UPDATE ON employee_data
+BEFORE UPDATE ON employee_data
 FOR EACH ROW
 BEGIN
     IF NEW.emp_role = 'ADMIN' THEN
