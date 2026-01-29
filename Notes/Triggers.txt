@@ -1,0 +1,33 @@
+===============TRIGGERS================
+
+What is TRIGGER?
+Ans:- It is the special kind of stored program that runs or fires automatically when the specific event happens on the table or view.
+
+Note:- Trigger will fire the DML events like
+        INSERT,UPDATE and DELETE
+
+When the triggers will run?
+Ans:- BEFORE the event (before the data is changed)
+      AFTER the event (After the data is changed)
+      INSTEAD OF the event (commonly for views)
+
+Why Triggers are used?
+Ans:-
+     1. Automatically updating the related table
+     2. Auditing changes (Logging who change what and when)
+     3. Validating or Modifying data before saved.
+
+
+NOTE:-
+
+Trigger             	Common Use
+BEFORE INSERT ->	Set defaults, validate input
+BEFORE UPDATE ->	Prevent invalid changes
+BEFORE DELETE ->	Restrict deletion
+AFTER INSERT  ->	Audit new rows
+AFTER UPDATE  ->	Audit changes
+AFTER DELETE  ->	Audit removals
+
+
+
+
