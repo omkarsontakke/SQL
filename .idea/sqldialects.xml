@@ -8,6 +8,7 @@
     <file url="file://$PROJECT_DIR$/Query/Module_3.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/Query/Module_4.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/Query/Module_5.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Query/Stored_Procedure.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/Query/Triggers.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/Query/test.sql" dialect="MySQL" />
   </component>

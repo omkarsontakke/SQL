@@ -1,0 +1,16 @@
+What is the Stored Procedure?
+Ans:- A set of SQL statement that can be stored on database server which can be called no. of times.
+
+Why use Stored Procedure?
+Ans:-
+    Performnace:- compiled once, redued many times.
+    Reusability: write once, call everywhere.
+
+When to use?
+Ans:- When you have heavy transaction.
+
+Can stored procedures handle errors in MySQL?
+Ans:- Yes, using DECLARE HANDLER.
+
+Can one stored procedure call another?
+Ans:- Yes, using call
