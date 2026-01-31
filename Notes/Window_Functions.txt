@@ -1,0 +1,13 @@
+What are Window Functions?
+Ans:- A window function performs a calculation across a set of related rows without reducing the number of rows.
+      Window Functions also known as the analytical functions.
+
+What does OVER() do?
+Ans:- OVER() defines the window of rows over which the function operates.
+
+What is Difference?
+| GROUP BY          | Window Function     |
+| ----------------- | ------------------- |
+| Reduces rows      | Keeps all rows      |
+| One row per group | One row per record  |
+| Aggregation only  | Analytics + ranking |
