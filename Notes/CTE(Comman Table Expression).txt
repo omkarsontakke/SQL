@@ -1,0 +1,19 @@
+What is CTE?
+Ans:- CTE Stands for Common Table Expression.
+      It is a temporary table that you create inside the SQL query to make easier to read and understand.
+ *Note*:- It only exist while the query is running, it's not saved in the database.
+
+Why do we need CTE?
+Ans:-
+    1. A Query is long and confusing then use CTE.
+    2. You want your SQL to be clear and readable.
+
+Simple Idea:
+Imagine you’re solving a math problem
+    1.First, you calculate something and give it a name
+    2.Then you use that result in the final answer
+
+That’s exactly what a CTE does.
+
+What are the limitations of CTEs?
+Ans:- They exist only for a single query
